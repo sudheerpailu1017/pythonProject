@@ -9,9 +9,14 @@ def linear_Search(list1, n, key):
 list1 = [1, 3, 5, 4, 7, 9]
 key = 7
 
-n = len(list1)
-res = linear_Search(list1, n, key)
-if (res == -1):
-    print("Element not found")
-else:
-    print("Element found at index: ", res)
+if __name__ == '__main__':
+    n = len(list1)
+    res = linear_Search(list1, n, key)
+    if (res == -1):
+        print("Element not found")
+    else:
+        print("Element found at index: ", res+1)
+
+
+
+
